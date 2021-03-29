@@ -1,1 +1,3 @@
-<p>image-gallery works!</p>
+<ul >
+    <li><img width ="150px"  *ngFor= "let image of imagesArr" src="{{image.path}}" alt="image" (click)="showGallery(image.index)"/></li>
+</ul>

@@ -1,0 +1,43 @@
+[
+    {
+        "Name": "Shota",
+        "LastName": "Rustveli",
+        "City": "Rustavi",
+        "Mail": "didishota@gmail.com",
+        "Phrase": "lekvi lomisa sworia",
+        "MobileNo": 599505050
+    },
+    {
+        "Name": "Ilia",
+        "LastName": "Chavchavadze",
+        "City": "Yvareli",
+        "Mail": "iliaMartali@gmail.com",
+        "Phrase": "Kacia, adamiani?!",
+        "MobileNo": 59999999
+    },
+   
+    {
+        "Name": "Akaki",
+        "LastName": "Wereteli",
+        "City": "Sxvitori",
+        "Mail": "akakisakvani@gmail.com",
+        "Phrase": "sasikvdilo me var mxolod kacad ro ver gamizrdixar",
+        "MobileNo": 598989898
+    },
+    {
+        "Name": "Vaja",
+        "LastName": "Pshavela",
+        "City": "Chargali",
+        "Mail": "vaja@gmail.com",
+        "Phrase": "nu shegashinebt ar gavnebst mtidan yvirili xarisa",
+        "MobileNo": 555555555
+    },
+    {
+        "Name": "Galaktioni",
+        "LastName": "Tabidze",
+        "City": "Vani",
+        "Mail": "meridzvirpaso@gmail.com",
+        "Phrase": "shota ilia akaki vaja da",
+        "MobileNo": 555000001
+    }
+]

@@ -1,0 +1,32 @@
+<p>studentdetails works!</p>
+<div class="form-group row">
+    <label class="col-sm-2 col-form-label" style="text-align: right;">Search</label>
+    <div class="col-sm-6">
+    <input type="text" class="form-control" id="search" [(ngModel)]="searchValue">
+  </div>
+  <br><br>
+</div>
+
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">LastName</th>
+            <th scope="col">City</th>
+            <th scope="col">Mail</th>
+            <th scope="col">Phrase</th>
+            <th scope="col">Mobile No</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-secondary"*ngFor="let student of Students | searchfilter:searchValue">
+            <td scope="col">{{student.Name}}</td>
+            <td scope="col">{{student.LastName}}</td>
+            <td scope="col">{{student.City}}</td>
+            <td scope="col">{{student.Mail}}</td>
+            <td scope="col">{{student.Phrase}}</td>
+            <td scope="col">{{student.MobileNo}}</td>
+        </tr>
+    </tbody>
+</table>

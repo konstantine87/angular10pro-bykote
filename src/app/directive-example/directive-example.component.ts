@@ -8,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class DirectiveExampleComponent implements OnInit {
 
   constructor() { }
-
+stringArray: string[] = [
+  "heloo",
+  "aloo",
+  "aloo",
+  "Fu Fuu",
+  "alo, alooo"
+];
   ngOnInit(): void {
   }
 

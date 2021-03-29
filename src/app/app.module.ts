@@ -13,6 +13,8 @@ import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { IvyGalleryModule } from 'angular-gallery';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { DirectiveExampleComponent } from './directive-example/directive-example.component';
+import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
+import { SearchfilterPipe } from './searchfilter.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { DirectiveExampleComponent } from './directive-example/directive-example
     MyPipePipe,
     PipeExampleComponent,
     ImageGalleryComponent,
-    DirectiveExampleComponent
+    DirectiveExampleComponent,
+    StudentdetailsComponent,
+    SearchfilterPipe
   ],
   imports: [
     BrowserModule,
